@@ -1,0 +1,45 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #b4a1ec;
+}
+
+.card {
+    background-color: #d3d3d3;
+    border-radius: 20px;
+    width: 400px;
+    height: 450px;
+    max-width: 400px;
+    /* Largura máxima do card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.social-icons img {
+    width: 50px;
+    margin: 10px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.navbar {
+    padding: 1rem;
+}
+
+.nav-link {
+    color: #000;
+    font-weight: bold;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+}

@@ -1,0 +1,47 @@
+body {
+    background-color: #b4a1ec;
+    /* Cor de fundo */
+    color: #000;
+    /* Cor do texto */
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    padding: 40px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hero-text {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.illustration img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav-link {
+    color: #000;
+    font-weight: bold;
+}
+
+.logo {
+    width: 40px;
+    height: auto;
+    /* Mantém a proporção da imagem */
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+}

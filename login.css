@@ -1,0 +1,70 @@
+html,
+body {
+    height: 100%;
+    /* Define a altura de toda a página como 100% da janela do navegador */
+    margin: 0;
+    overflow: hidden;
+    /* Remove as barras de rolagem */
+    background-color: #bca9f2;
+}
+
+.login-container {
+    background-color: #d3d3d3;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-container input {
+    border-radius: 20px;
+    background-color: #7b57f2;
+    color: white;
+    border: none;
+}
+
+.login-container input::placeholder {
+    color: #ffffff;
+}
+
+.login-container button {
+    border-radius: 20px;
+    background-color: #7b57f2;
+    color: white;
+    font-weight: bold;
+}
+
+.logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.cadastro-link {
+    color: #7b57f2;
+    font-weight: bold;
+}
+
+.voltar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.card {
+    background-color: #d3d3d3;
+    border-radius: 20px;
+    width: 400px;
+    height: 450px;
+    max-width: 400px;
+    /* Largura máxima do card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
