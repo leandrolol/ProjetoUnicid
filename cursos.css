@@ -1,0 +1,30 @@
+body {
+    background-color: #d6b3ff;
+}
+
+.search-bar {
+    background-color: #f2dede;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.card-custom {
+    border: 3px solid black;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+}
+
+.btn-custom {
+    background-color: #9b6cf1;
+    border-radius: 15px;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #8b5de3;
+}
+.logo {
+    width: 50px;
+}
